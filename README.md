@@ -1,4 +1,4 @@
 # EasyMedStat imputation methods and models research
 The aim of this project is to compare and study different imputation methods and different regression and classification models.
 
-![](https://github.com/Mougly9/CHURN-Project/blob/main/Dataframe%20visualization.png)
+![](https://github.com/SamLB9/EMS_research_imputation-models/blob/main/README.md#:~:text=Untitled-,Diagram,-%2D1687421396454.drawio.png)
