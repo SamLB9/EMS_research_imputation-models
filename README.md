@@ -17,7 +17,11 @@ Here's a diagram to help you clearly understand our process:
 ![](https://github.com/SamLB9/EMS_research_imputation-models/blob/6498bba2394adb60f1ae1d19b05fbca9ade664a4/Diagram_drawio.png)
 
 To carry out this process, I've created a tool with several functions that allow me to compare different models using the Pycaret library.
+In the files attached to this project you'll find two jupyter .ipynb files containing my code.
 
+My tool consists of a data cleaning function called "Prep()", a function that imputes missing values in different ways called "impute()", a "fitting()" function that compares different regression or classification models by testing them with a random sample of the original dataset and returns the metrics of the different models, a "save()" function that saves the metrics of the different models in a csv file and a "glob()" function that calls the above functions iteratively.
+
+To compile my process, all I have to do is call the glob function, setting as parameters the address of the original dataset, the imputation method and the address of the various csvs that the function will create for me.
 
 Here's an overview of the data set we obtained after this process:
 
