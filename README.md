@@ -6,7 +6,7 @@ This first dataset contains 5735 observations.
 First, we had to clean up the data by deleting rows containing missing data and transforming categorical variables into numerical variables using OneHotEncoder's SckLearn function, so that they could be taken into account in the models.
 We will analyze the different models and imputation methods using 3 different sample sizes: 150, 500 and 1000 observations. These data sizes will be randomly selected from the cleane dataset with a size of 5735 rows.
 For each sample, we imputed a certain percentage of missing data (10%, 20%, 25%, 30%, 40%, 50%) and then completed the missing values using different imputation methods (Drop, Median, Regression or Multiple).
-We then split the dataset into a train part and a test part (80%-20%).
+We then split the dataset into a train part and a test part (70%-30%).
 
 Finally, we were able to train and test the various models.
 We recovered the best models and then tested them with a random sample of 150 observations from the initial dataset.
