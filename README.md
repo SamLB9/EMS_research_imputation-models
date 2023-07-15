@@ -51,6 +51,11 @@ And here is a boxplot showing the different classification models in their entir
 
 We note that the two classification models with the best performance according to the median are the 'Random Forest Classifier' and the 'Extra Trees Classifier'.
 
+In order to analyze the performance of the different imputation methods, I have once again chosen to use boxplots. 
+
+Here's a box plot representing the different imputation methods according to their AUC as a function of the percentage of missing value. For this I choose to based on the best classification models, the 'Random Forest Classifier':
+
+
 _____________________________________________________________________________________________________
 
 Similarly, here are three boxplots comparing the performance of regression models according to RMSE:
@@ -67,6 +72,10 @@ And here is a boxplot showing the different regression models in their entirety:
 
 We note that the three regression models with the best performance according to the median are the 'Extra Trees Regressor', the 'Extreme Gradient Boosting' and the 'Random Forest Regressor'.
 
+In order to analyze the performance of the different imputation methods, I have once again chosen to use boxplots. 
+
+Here's a box plot representing the different imputation methods according to their RMSE as a function of the percentage of missing value. For this I choose to based on the best regression models, the 'Extra Trees Regressor':
+
 _____________________________________________________________________________________________________
 
-In order to analyze the performance of the different imputation methods, I have chosen to use boxplots. 
+
