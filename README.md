@@ -40,11 +40,12 @@ Firstly, we will analyze the performance of the different models.
 Here are three boxplots representing the different classification models according to their AUC and missing value percentage:
 
 1000 rows:
-![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_1000rows.png)
+![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_1000ROWS.png)
 500 rows:
-![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_500rows.png)
+![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_500ROWS.png)
 150 rows:
-![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_150rows.png)
+![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_150ROWS.png)
+
 
 And here is a boxplot showing the different classification models in their entirety:
 ![Global classification models comparaison](https://github.com/SamLB9/EMS_research_imputation-models/blob/1d203bf5507b56e0d2be954e59dc3c4bb70eb3bc/C_GlobalModelsComparaison.png)
@@ -56,11 +57,11 @@ In order to analyze the performance of the different imputation methods, I have 
 Here's a box plot representing the different imputation methods according to their AUC as a function of the percentage of missing value. To do this, I decided to use the best classification model, the "Random Forest Classifier":
 
 1000 rows:
-![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_1000ROWS.png)
+![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_1000rows.png)
 500 rows:
-![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_500ROWS.png)
+![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_500rows.png)
 150 rows:
-![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_150ROWS.png)
+![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_150rows.png)
 
 _____________________________________________________________________________________________________
 
