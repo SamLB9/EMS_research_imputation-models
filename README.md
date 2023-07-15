@@ -18,8 +18,8 @@ Here's a diagram to help you clearly understand our process:
 
 To carry out this process, I've created a tool with several functions that allow me to compare different models using the Pycaret library.
 In the files attached to this project you'll find two jupyter .ipynb files containing my code.
-[Classification.ipynb](https://github.com/SamLB9/EMS_research_imputation-models/blob/fba7c93533dedf7a8dfc9d13b1a829bb195d5b3a/Classification_EMS.ipynb)
-[Regression.ipynb](https://github.com/SamLB9/EMS_research_imputation-models/blob/05eff37eee9a2cae4e3b94e603c1a4c453b99316/Regression_Pycaret.ipynb)
+([Classification.ipynb](https://github.com/SamLB9/EMS_research_imputation-models/blob/fba7c93533dedf7a8dfc9d13b1a829bb195d5b3a/Classification_EMS.ipynb),
+[Regression.ipynb](https://github.com/SamLB9/EMS_research_imputation-models/blob/05eff37eee9a2cae4e3b94e603c1a4c453b99316/Regression_Pycaret.ipynb))
 
 My tool consists of a data cleaning function called "Prep()", a function that imputes missing values in different ways called "impute()", a "fitting()" function that compares different regression or classification models by testing them with a random sample of the original dataset and returns the metrics of the different models, a "save()" function that saves the metrics of the different models in a csv file and a "glob()" function that calls the above functions iteratively.
 
