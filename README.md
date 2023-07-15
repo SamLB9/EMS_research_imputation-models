@@ -81,7 +81,14 @@ We note that the three regression models with the best performance according to 
 
 In order to analyze the performance of the different imputation methods, I have once again chosen to use boxplots. 
 
-Here's a box plot representing the different imputation methods according to their RMSE as a function of the percentage of missing value. To do this, I decided to use the best regression models, the 'Extra Trees Regressor':
+Here's a box plot representing the different imputation methods according to their RMSE as a function of the percentage of missing value. To do this, I decided to use the best regression models, the 'Extreme Gradient Boosting':
+
+1000 rows:
+![1000 rows:]()
+500 rows:
+![500 rows:]()
+150 rows:
+![150 rows:]()
 
 _____________________________________________________________________________________________________
 
