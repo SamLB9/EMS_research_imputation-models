@@ -55,6 +55,12 @@ In order to analyze the performance of the different imputation methods, I have 
 
 Here's a box plot representing the different imputation methods according to their AUC as a function of the percentage of missing value. To do this, I decided to use the best classification model, the "Random Forest Classifier":
 
+1000 rows:
+![1000 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_1000ROWS.png)
+500 rows:
+![500 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_500ROWS.png)
+150 rows:
+![150 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_150ROWS.png)
 
 _____________________________________________________________________________________________________
 
