@@ -44,6 +44,9 @@ Here are three boxplots representing the different classification models accordi
 150 rows:
 ![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/C_MODELSCOMPARAISON_150ROWS.png)
 
+And here is a boxplot showing the different classification models in their entirety:
+![Global classification models comparaison](https://github.com/SamLB9/EMS_research_imputation-models/blob/1d203bf5507b56e0d2be954e59dc3c4bb70eb3bc/C_GlobalModelsComparaison.png)
+
 Similarly, here are three boxplots comparing the performance of regression models according to RMSE:
 
 1000 rows:
@@ -52,5 +55,8 @@ Similarly, here are three boxplots comparing the performance of regression model
 ![500 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_500ROWS.png)
 150 rows:
 ![150 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_150ROWS.png)
+
+And here is a boxplot showing the different regression models in their entirety:
+![Global regression models comparaison](https://github.com/SamLB9/EMS_research_imputation-models/blob/1d203bf5507b56e0d2be954e59dc3c4bb70eb3bc/R_GlobalModelsComparaison.png)
 
 In order to analyze the performance of the different imputation methods, I have chosen to use boxplots. 
