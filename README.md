@@ -37,14 +37,20 @@ Firstly, we will analyze the performance of the different models.
 
 Here are three boxplots representing the different classification models according to their AUC and missing value percentage:
 
+1000 rows:
 ![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/C_MODELSCOMPARAISON_1000ROWS.png)
+500 rows:
 ![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/C_MODELSCOMPARAISON_500ROWS.png)
+150 rows;
 ![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/C_MODELSCOMPARAISON_150ROWS.png)
 
 Similarly, here are three boxplots comparing the performance of regression models according to RMSE:
 
+1000 rows:
 ![1000 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_1000ROWS.png)
+500 rows:
 ![500 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_500ROWS.png)
+150 rows:
 ![150 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_150ROWS.png)
 
 In order to analyze the performance of the different imputation methods, I have chosen to use boxplots. 
