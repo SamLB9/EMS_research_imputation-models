@@ -41,7 +41,7 @@ Here are three boxplots representing the different classification models accordi
 ![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/C_MODELSCOMPARAISON_1000ROWS.png)
 500 rows:
 ![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/C_MODELSCOMPARAISON_500ROWS.png)
-150 rows;
+150 rows:
 ![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/C_MODELSCOMPARAISON_150ROWS.png)
 
 Similarly, here are three boxplots comparing the performance of regression models according to RMSE:
