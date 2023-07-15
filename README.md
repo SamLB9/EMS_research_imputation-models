@@ -53,7 +53,7 @@ We note that the two classification models with the best performance according t
 
 In order to analyze the performance of the different imputation methods, I have once again chosen to use boxplots. 
 
-Here's a box plot representing the different imputation methods according to their AUC as a function of the percentage of missing value. For this I choose to based on the best classification models, the 'Random Forest Classifier':
+Here's a box plot representing the different imputation methods according to their AUC as a function of the percentage of missing value. To do this, I decided to use the best classification model, the "Random Forest Classifier":
 
 
 _____________________________________________________________________________________________________
@@ -74,7 +74,7 @@ We note that the three regression models with the best performance according to 
 
 In order to analyze the performance of the different imputation methods, I have once again chosen to use boxplots. 
 
-Here's a box plot representing the different imputation methods according to their RMSE as a function of the percentage of missing value. For this I choose to based on the best regression models, the 'Extra Trees Regressor':
+Here's a box plot representing the different imputation methods according to their RMSE as a function of the percentage of missing value. To do this, I decided to use the best regression models, the 'Extra Trees Regressor':
 
 _____________________________________________________________________________________________________
 
