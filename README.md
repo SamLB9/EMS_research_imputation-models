@@ -47,6 +47,8 @@ Here are three boxplots representing the different classification models accordi
 And here is a boxplot showing the different classification models in their entirety:
 ![Global classification models comparaison](https://github.com/SamLB9/EMS_research_imputation-models/blob/1d203bf5507b56e0d2be954e59dc3c4bb70eb3bc/C_GlobalModelsComparaison.png)
 
+We note that the two classification models with the best performance according to the median are the 'Random Forest Classifier' and the 'Extra Trees Classifier'.
+
 Similarly, here are three boxplots comparing the performance of regression models according to RMSE:
 
 1000 rows:
@@ -58,5 +60,7 @@ Similarly, here are three boxplots comparing the performance of regression model
 
 And here is a boxplot showing the different regression models in their entirety:
 ![Global regression models comparaison](https://github.com/SamLB9/EMS_research_imputation-models/blob/1d203bf5507b56e0d2be954e59dc3c4bb70eb3bc/R_GlobalModelsComparaison.png)
+
+We note that the three regression models with the best performance according to the median are the 'Extra Trees Regressor', the 'Extreme Gradient Boosting' and the 'Random Forest Regressor'.
 
 In order to analyze the performance of the different imputation methods, I have chosen to use boxplots. 
