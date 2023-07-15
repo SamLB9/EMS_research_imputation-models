@@ -61,7 +61,7 @@ Here's a box plot representing the different imputation methods according to the
 500 rows:
 ![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_500rows.png)
 150 rows:
-![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_150rows.png)
+![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/eaa13f2c3de6121fed887a4a1b647d1e4ff91ae7/C_BoxPlot_RandomForestClassifier_Classification_150rows.png)
 
 _____________________________________________________________________________________________________
 
