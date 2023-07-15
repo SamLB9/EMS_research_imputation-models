@@ -25,6 +25,8 @@ My tool consists of a data cleaning function called "Prep()", a function that im
 
 To compile my process, all I have to do is call the glob function, setting as parameters the address of the original dataset, the imputation method and the address of the various csvs that the function will create for me.
 
+I then merged all the csvs so as to be able to analyze them using graphs.
+
 Here's an overview of the data set we obtained after this process:
 
 ![](https://github.com/SamLB9/EMS_research_imputation-models/blob/b55ea070af72228af00d16c99d8010b8c876e685/MetricsData.png)
