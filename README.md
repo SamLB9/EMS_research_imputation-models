@@ -84,11 +84,11 @@ In order to analyze the performance of the different imputation methods, I have 
 Here's a box plot representing the different imputation methods according to their RMSE as a function of the percentage of missing value. To do this, I decided to use the best regression models, the 'Extreme Gradient Boosting':
 
 1000 rows:
-![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/d76386a239d2b6ce7c020f81f827a01a5ad4b671/R_MODELSCOMPARAISON_1000ROWS.png)
+![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/161f4537856f0915531f5b4d1c7420de0648c803/R_BoxPlot_ExtremeGradientBoosting_1000rows.png)
 500 rows:
-![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/d76386a239d2b6ce7c020f81f827a01a5ad4b671/R_MODELSCOMPARAISON_500ROWS.png)
+![500 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/161f4537856f0915531f5b4d1c7420de0648c803/R_BoxPlot_ExtremeGradientBoosting_500rows.png)
 150 rows:
-![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/d76386a239d2b6ce7c020f81f827a01a5ad4b671/R_MODELSCOMPARAISON_150ROWS.png)
+![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/161f4537856f0915531f5b4d1c7420de0648c803/R_BoxPlot_ExtremeGradientBoosting_150rows.png)
 
 _____________________________________________________________________________________________________
 
