@@ -1,6 +1,6 @@
 # EasyMedStat imputation methods and models research
 The aim of this project is to compare and study different imputation methods and different regression and classification models for different starting sample sizes and missing data percentages.
-To do this, we chose to conduct our research using [healthcare dataset](https://github.com/SamLB9/EMS_research_imputation-models/blob/55db256762acc0ee79d8a105aa6f61c4943150f4/rhcmod-latest-version-5735patients%20(1).csv) to have a dataset that resembles as closely as possible the dataset that can be imported into the platform.
+To do this, we chose to conduct our research using an [healthcare dataset](https://github.com/SamLB9/EMS_research_imputation-models/blob/55db256762acc0ee79d8a105aa6f61c4943150f4/rhcmod-latest-version-5735patients%20(1).csv) to have a dataset that resembles as closely as possible the dataset that can be imported into the platform.
 
 This first dataset contains 5735 observations.
 First, we had to clean up the data by deleting rows containing missing data and transforming categorical variables into numerical variables using OneHotEncoder's SckLearn function, so that they could be taken into account in the models.
