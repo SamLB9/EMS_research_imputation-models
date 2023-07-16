@@ -80,7 +80,7 @@ Here's a boxplot representing the different imputation methods performance globa
 
 ![](https://github.com/SamLB9/EMS_research_imputation-models/blob/86b2bfa52205000c2065ce42a2b20b496ff6cfd2/C_BoxPlot_GlobalImputationMethodComparaison.png)
 
-We can conclude that the Multiple imputation method is globally the best imputation method but isn't robust because it's not the better one when the datasize is small. Therefore when we want to do a classification model with a big data set it's more interresting to use the Multiple imputation method. Conversely, when the dataset is small, it's more interesting to impute by median.
+We can conclude that the Multiple imputation method is globaly the best imputation method but isn't robust because it's not the better one when the datasize is small. Therefore when we want to do a classification model with a big data set it's more interresting to use the Multiple imputation method. Conversely, when the dataset is small, it's more interesting to impute by median.
 
 _____________________________________________________________________________________________________
 
@@ -125,5 +125,12 @@ Here's a boxplot representing the different imputation methods performance globa
 
 ![](https://github.com/SamLB9/EMS_research_imputation-models/blob/78a9896a5b9373fdbc73bd599793bce9ac7c97dd/R_BoxPlot_GlobalImputationMethodComparaison.png)
 
+Effectively by considering the impution method performance by them median, Regression imputation method is globaly the best one for regression. The Drop option is also an excellent imputation method, but is not as effective as regression when the amount of data is relatively large.
+
+_____________________________________________________________________________________________________
+
+The bottom line is there is not big differencies between the different imputation methods but according to the amount of data and the percentage of missing value we notice some trends. It's important to point out that our conclusions are not the same for regression and classification models, and the best imputation methods are not the same.
+
+As far as models are concerned, Random Forest is a good solution for both regression and classification models although there are models whose performance is relatively similar to that of Random Forest.
 
 
