@@ -87,7 +87,7 @@ ________________________________________________________________________________
 Similarly, here are three boxplots comparing the performance of regression models according to their RMSE (index to minimize) and their missing value percentage:
 
 1000 rows:
-![1000 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_1000ROWS.png)
+![1000 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/c843b919bf7fa7f2f62f2205616a7b38a93bae9c/R_MODELSCOMPARAISON_1000ROWS.png)
 500 rows:
 ![500 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_500ROWS.png)
 150 rows:
