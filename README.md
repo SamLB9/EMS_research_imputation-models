@@ -38,7 +38,7 @@ ________________________________________________________________________________
 
 Firstly, we will analyze the performance of the different models.
 
-Here are three boxplots representing the different classification models according to their AUC and missing value percentage:
+Here are three boxplots representing the different classification models according to their AUC (index to maximize) and missing value percentage:
 
 1000 rows:
 ![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/4dd325cda9184cbe3060fc2635a6ac8fe1ce89b8/C_MODELSCOMPARAISON_1000ROWS.png)
@@ -84,7 +84,7 @@ We can conclude that the Multiple imputation method is globaly the best imputati
 
 _____________________________________________________________________________________________________
 
-Similarly, here are three boxplots comparing the performance of regression models according to RMSE:
+Similarly, here are three boxplots comparing the performance of regression models according to their RMSE (index to minimize) and their missing value percentage:
 
 1000 rows:
 ![1000 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/b92c6e06cebf6c83d7aa0292dd25ef22c6119344/R_MODELSCOMPARAISON_1000ROWS.png)
