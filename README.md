@@ -55,7 +55,7 @@ We note that the two classification models with the best performance according t
 
 In order to analyze the performance of the different imputation methods, I have once again chosen to use boxplots. 
 
-Here's a box plot representing the different imputation methods according to their AUC as a function of the percentage of missing value. To do this, I decided to use the best classification model, the "Random Forest Classifier":
+Here are three box plot representing the different imputation methods according to their AUC as a function of the percentage of missing value and of the data size. To do this, I decided to use the best classification model, the "Random Forest Classifier":
 
 1000 rows:
 ![1000 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/758bd4fd41e809fe14d29666cdc38ad786970622/C_BoxPlot_RandomForestClassifier_Classification_1000rows.png)
@@ -66,6 +66,19 @@ Here's a box plot representing the different imputation methods according to the
 
 We immediately notice that there is a positive relationship between the number of dataset observations and model performance, and a negative relationship between the percentage of missing value and model performance. It's good to see this, despite the fact that it was to be expected. 
 We can also see that there is no optimal imputation method. 
+
+Here are three boxplot representing the different imputation methods according to their AUC as a function of the data size:
+
+1000 rows:
+![](https://github.com/SamLB9/EMS_research_imputation-models/blob/86b2bfa52205000c2065ce42a2b20b496ff6cfd2/C_BoxPlot_ImputationMethodComparaison_1000ROWS.png)
+500 rows:
+![](https://github.com/SamLB9/EMS_research_imputation-models/blob/86b2bfa52205000c2065ce42a2b20b496ff6cfd2/C_BoxPlot_ImputationMethodComparaison_500ROWS.png)
+150 rows:
+![](https://github.com/SamLB9/EMS_research_imputation-models/blob/86b2bfa52205000c2065ce42a2b20b496ff6cfd2/C_BoxPlot_ImputationMethodComparaison_150ROWS.png)
+
+Here's a boxplot representing the different imputation methods performance globally:
+
+![](https://github.com/SamLB9/EMS_research_imputation-models/blob/86b2bfa52205000c2065ce42a2b20b496ff6cfd2/C_BoxPlot_GlobalImputationMethodComparaison.png)
 
 _____________________________________________________________________________________________________
 
