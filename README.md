@@ -64,6 +64,9 @@ Here's a box plot representing the different imputation methods according to the
 150 rows:
 ![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/eaa13f2c3de6121fed887a4a1b647d1e4ff91ae7/C_BoxPlot_RandomForestClassifier_Classification_150rows.png)
 
+We immediately notice that there is a positive relationship between the number of dataset observations and model performance, and a negative relationship between the percentage of missing value and model performance. It's good to see this, despite the fact that it was to be expected. 
+We can also see that there is no optimal imputation method. 
+
 _____________________________________________________________________________________________________
 
 Similarly, here are three boxplots comparing the performance of regression models according to RMSE:
