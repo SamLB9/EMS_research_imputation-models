@@ -24,6 +24,7 @@ In the files attached to this project you'll find two jupyter .ipynb files conta
 My tool consists of a data cleaning function called "Prep()", a function that imputes missing values in different ways called "impute()", a "fitting()" function that compares different regression or classification models by testing them with a random sample of the original dataset and returns the metrics of the different models, a "save()" function that saves the metrics of the different models in a csv file and a "glob()" function that calls the above functions iteratively.
 
 To compile my process, all I have to do is call the glob function, setting as parameters the address of the original dataset, the imputation method and the address of the various csvs that the function will create for me.
+To maximize the robustness of the results, we have chosen to compile the function 5 times for each case to minimize potential biased results.
 
 I then merged all the csvs so as to be able to analyze them using graphs.
 
