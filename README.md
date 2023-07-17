@@ -1,5 +1,5 @@
 # EasyMedStat imputation methods and models research
-The aim of this project is to compare and study different imputation methods and different regression and classification models for different starting sample sizes and missing data percentages.
+### The aim of this project is to compare and study different imputation methods and different regression and classification models for different starting sample sizes and missing data percentages.
 To do this, we chose to conduct our research using an [healthcare dataset](https://github.com/SamLB9/EMS_research_imputation-models/blob/55db256762acc0ee79d8a105aa6f61c4943150f4/rhcmod-latest-version-5735patients%20(1).csv) to have a dataset that resembles as closely as possible the dataset that can be imported into the platform.
 
 This first dataset contains 5735 observations.
@@ -36,7 +36,7 @@ From here, we were able to analyze the different imputation methods and models i
 
 _____________________________________________________________________________________________________
 
-Firstly, we will analyze the performance of the different models.
+### Firstly, we will analyze the performance of the different models
 
 Here are three boxplots representing the different classification models according to their AUC (index to maximize) and missing value percentage:
 
@@ -64,8 +64,7 @@ Here are three box plot representing the different imputation methods according 
 150 rows:
 ![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/eaa13f2c3de6121fed887a4a1b647d1e4ff91ae7/C_BoxPlot_RandomForestClassifier_Classification_150rows.png)
 
-We immediately notice that there is a positive relationship between the number of dataset observations and model performance, and a negative relationship between the percentage of missing value and model performance. It's good to see this, despite the fact that it was to be expected. 
-We can also see that there is no optimal imputation method. 
+### We immediately notice that there is a positive relationship between the number of dataset observations and model performance, and a negative relationship between the percentage of missing value and model performance. It's good to see this, despite the fact that it was to be expected. We can also see that there is no optimal imputation method. 
 
 Here are three boxplot representing the different imputation methods according to their AUC as a function of the data size:
 
@@ -80,11 +79,11 @@ Here's a boxplot representing the different imputation methods performance globa
 
 ![](https://github.com/SamLB9/EMS_research_imputation-models/blob/86b2bfa52205000c2065ce42a2b20b496ff6cfd2/C_BoxPlot_GlobalImputationMethodComparaison.png)
 
-We can conclude that the Multiple imputation method is globaly the best imputation method but isn't robust because it's not the better one when the datasize is small. Therefore when we want to do a classification model with a big data set it's more interresting to use the Multiple imputation method. Conversely, when the dataset is small, it's more interesting to impute by median.
+### We can conclude that the Multiple imputation method is globaly the best imputation method but isn't robust because it's not the better one when the datasize is small. Therefore when we want to do a classification model with a big data set it's more interresting to use the Multiple imputation method. Conversely, when the dataset is small, it's more interesting to impute by median.
 
 _____________________________________________________________________________________________________
 
-Similarly, here are three boxplots comparing the performance of regression models according to their RMSE (index to minimize) and their missing value percentage:
+### Similarly, here are three boxplots comparing the performance of regression models according to their RMSE (index to minimize) and their missing value percentage:
 
 1000 rows:
 ![1000 rows](https://github.com/SamLB9/EMS_research_imputation-models/blob/c843b919bf7fa7f2f62f2205616a7b38a93bae9c/R_MODELSCOMPARAISON_1000ROWS.png)
@@ -109,8 +108,7 @@ Here are three box plot representing the different imputation methods according 
 150 rows:
 ![150 rows:](https://github.com/SamLB9/EMS_research_imputation-models/blob/161f4537856f0915531f5b4d1c7420de0648c803/R_BoxPlot_ExtremeGradientBoosting_150rows.png)
 
-We immediately notice that there is a positive relationship between the number of observations in the dataset and model performance, and a negative relationship between the percentage of missing values and model performance. This is a good thing, although not unexpected. 
-We can also see that there is no true optimal imputation method, but that the multiple imputation method seems to be the worst imputation method for the regression model. The elimination imputation method performs better when the amount of data is small. If we consider these three box plots, the regression imputation method appears to be the most robust, although it performs less well when the amount of data is low. 
+### We immediately notice that there is a positive relationship between the number of observations in the dataset and model performance, and a negative relationship between the percentage of missing values and model performance. This is a good thing, although not unexpected. We can also see that there is no true optimal imputation method, but that the multiple imputation method seems to be the worst imputation method for the regression model. The elimination imputation method performs better when the amount of data is small. If we consider these three box plots, the regression imputation method appears to be the most robust, although it performs less well when the amount of data is low. 
 
 Using the three boxplots below, we're going to check our assumptions. They represent the performance of imputation methods as a function of data set size.
 
@@ -125,12 +123,10 @@ Here's a boxplot representing the different imputation methods performance globa
 
 ![](https://github.com/SamLB9/EMS_research_imputation-models/blob/78a9896a5b9373fdbc73bd599793bce9ac7c97dd/R_BoxPlot_GlobalImputationMethodComparaison.png)
 
-Effectively by considering the impution method performance by them median, Regression imputation method is globaly the best one for regression. The Drop option is also an excellent imputation method, but is not as effective as regression when the amount of data is relatively large.
+### Effectively by considering the impution method performance by them median, Regression imputation method is globaly the best one for regression. The Drop option is also an excellent imputation method, but is not as effective as regression when the amount of data is relatively large.
 
 _____________________________________________________________________________________________________
 
-The bottom line is there is not big differencies between the different imputation methods but according to the amount of data and the percentage of missing value we notice some trends. It's important to point out that our conclusions are not the same for regression and classification models, and the best imputation methods are not the same.
-
-As far as models are concerned, Random Forest is a good solution for both regression and classification models although there are models whose performance is relatively similar to that of Random Forest.
+## The bottom line is there is not big differencies between the different imputation methods but according to the amount of data and the percentage of missing value we notice some trends. It's important to point out that our conclusions are not the same for regression and classification models, and the best imputation methods are not the same. As far as models are concerned, Random Forest is a good solution for both regression and classification models although there are models whose performance is relatively similar to that of Random Forest.
 
 
