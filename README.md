@@ -131,6 +131,7 @@ ________________________________________________________________________________
 To achieve this, we will use imputation methods with different classification models (Random Forest Classifier, Extra Trees Classifier, Extreme Gradient Boosting and Light Gradient Boosting Machine).
 
 1000 rows:
+
 Random Forest Classifier:
 
 Extra Trees Classifier: 
@@ -140,6 +141,7 @@ Extreme Gradient Boosting:
 Light Gradient Boosting Machine:
 
 500 rows:
+
 Random Forest Classifier:
 
 Extra Trees Classifier: 
@@ -149,6 +151,7 @@ Extreme Gradient Boosting:
 Light Gradient Boosting Machine:
 
 150 rows:
+
 Random Forest Classifier:
 
 Extra Trees Classifier: 
