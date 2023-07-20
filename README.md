@@ -165,6 +165,8 @@ Light Gradient Boosting Machine:
 
 ### In analyzing these graphs, we note that the results of the different models for imputation methods are very close for 1000 and 500 rows. Results are more heterogeneous for the 150-row dataset. This must be linked to their intrinsic performance when the quantity of data is low. The results nevertheless allow us to conclude that the performance of the different imputation methods is the same regardless of the Machine Learning model. This also proves that dataset quality is the main factor influencing model performance.
 
+_____________________________________________________________________________________________________
+
 ## Conclusion:
 The bottom line is there is not big differencies between the different imputation methods but according to the amount of data and the percentage of missing value we notice some trends. It's important to point out that our conclusions are not the same for regression and classification models, and the best imputation methods are not the same. As far as models are concerned, Random Forest is a good solution for both regression and classification models although there are models whose performance is relatively similar to that of Random Forest.
 
