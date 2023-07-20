@@ -127,6 +127,14 @@ Here's a boxplot representing the different imputation methods performance globa
 
 _____________________________________________________________________________________________________
 
-## The bottom line is there is not big differencies between the different imputation methods but according to the amount of data and the percentage of missing value we notice some trends. It's important to point out that our conclusions are not the same for regression and classification models, and the best imputation methods are not the same. As far as models are concerned, Random Forest is a good solution for both regression and classification models although there are models whose performance is relatively similar to that of Random Forest.
+## Conclusion:
+The bottom line is there is not big differencies between the different imputation methods but according to the amount of data and the percentage of missing value we notice some trends. It's important to point out that our conclusions are not the same for regression and classification models, and the best imputation methods are not the same. As far as models are concerned, Random Forest is a good solution for both regression and classification models although there are models whose performance is relatively similar to that of Random Forest.
+
+### Key points to remember:
+1) There is no significant difference between the performance of the different imputation methods. We can therefore conclude that it is important to have information on the reason for the missing data in order to choose the best imputation method. This information should not be neglected.
+2) Generally speaking, regression and multiple imputation methods are preferable when the quantity of data is high, and conversely, when it's low, it's better to Drop or impute by the median.
+3) The best imputation methods are not necessarily the same for linear regression and classification.
+4) Random Forests are very good and robust models for both classification and regression.
+5) Clearly, there is a positive relationship between data quantity and model performance, and a negative relationship between the percentage of missing data and model performance.
 
 
